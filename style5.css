@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 1.1rem;
+    scroll-behavior: smooth;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+}
+.logo .menu{
+    justify-content: center;
+}
+.logo .menu a{
+    text-decoration: none;
+    /* justify-content: space-between; */
+    margin-left: 40px;
+    color: black;
+    font-size: 1.4rem;
+}
+.logo .menu a:hover{
+    color: greenyellow;
+}
+.propos{
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgb(36, 36, 85)), url(assets/images/eleve1.jpg);
+    background-size: cover;
+    width: 99%;
+    height: 100vh;
+    display: flex;
+    text-align: start;
+    justify-content: start;
+    align-items: end;
+    margin-left: 8px;
+  
+}
+.sasa{
+    background-color: black;
+    color: gray;
+    height: 20vh;
+    width: 99%;
+    margin-left: 8px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom: 8px solid white;
+}
+.sasa .rere{
+    margin-left: 50px;
+    font-size: 1.2rem;
+}

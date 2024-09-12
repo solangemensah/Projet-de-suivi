@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+}
+.logo .menu{
+    justify-content: center;
+}
+.logo .menu a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: black;
+    font-size: 1.4rem;
+}
+.logo .menu a:hover{
+    color: greenyellow;
+}
+.propos{
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgb(36, 36, 85)), url(assets/images/WhatsApp\ Image\ 2024-08-12\ à\ 11.30.05_47399a32.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    text-align: start;
+    justify-content: start;
+    align-items: end;
+    font-size: 3rem;
+    padding: 40px;
+    color: white;
+}
+.tete{
+    margin-top: 60px;
+    display: flex;
+    height:80vh;
+    padding: 20px;
+    gap: 20px;
+
+}
+.tete .veve{
+    margin-top: 40px;
+    padding:2% 5%;
+    background-color: white;
+    box-shadow: 10px 10px 25px  rgba(58, 56, 56, 0.8);
+    border-radius: 6%;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.tete .veve p{
+    font-size: 1.4rem;
+}
+.tete .veve img{
+    width: 40%;
+    height: 20%;
+    margin-left: 60px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tete .veve button {
+    color: white;
+    background: #41c885;
+    width: 140px;
+    height: 40px;
+    border-radius: 25px;
+    border-style: none;
+}
+.tete .veve button:hover{
+    border-radius: 0px;
+    transition: ease 500ms;
+}
+button a {
+    color: white;
+}
+.pour{
+    margin-top: 60px;
+    display: flex;
+    height:60vh;
+    align-items: center;
+    padding: 50px;
+    gap: 35px;
+    background-color: rgb(8, 70, 88);
+}
+.pour h1{
+    color: #41c885;
+    font-size: 2rem;
+}
+.pour h3{
+    font-size: 1.4rem ;
+    color: white;
+}
+.teteq{
+    margin-top: 60px;
+    display: flex;
+    height:70vh;
+    padding: 40px 100px;
+    gap: 20px;
+
+}
+.teteq .veve{
+    margin-top: 20px;
+    padding:2% 5%;
+    background-color: rgb(8, 70, 88);
+    box-shadow: 10px 10px 25px  rgba(58, 56, 56, 0.8);
+    border-radius: 6%;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 25%;
+}
+
+.teteq .veve p{
+    font-size: 1.4rem;
+    color: white;
+}
+.teteq .veve img{
+    width: 40%;
+    height: 20%;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.teteq .veve button{
+    color: white;
+    background: #41c885;
+    width: 130px;
+    height: 40px;
+    border-radius: 25px;
+    border-style: none;
+}
+.teteq .veve button:hover{
+    border-radius: 0px;
+    transition: ease 500ms;
+}  
+.dede{
+    display: flex;
+    background-color: rgb(8, 70, 88);
+    height: 30vh;
+    width: 100%;
+    gap: 40px;
+    padding: 5% 0;
+}
+.dede .isco img{
+   width: 80%;
+   height: 60%;
+   margin-top: 20px;
+}
+.dede .isco{
+    margin-left: 4%;
+    padding: auto;
+}
+.sasa{
+    background-color: black;
+    color: gray;
+    height: 20vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.sasa .rere{
+    margin-left: 50px;
+    font-size: 1.4rem;
+}

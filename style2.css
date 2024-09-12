@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 1.1rem;
+    scroll-behavior: smooth;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+}
+.logo .menu{
+    justify-content: center;
+}
+.logo .menu a{
+    text-decoration: none;
+    /* justify-content: space-between; */
+    margin-left: 40px;
+    color: black;
+    font-size: 1.4rem;
+}
+.logo .menu a:hover{
+    color: greenyellow;
+}
+.propos{
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgb(36, 36, 85)), url(assets/images/WhatsApp\ Image\ 2024-08-12\ à\ 11.30.04_b96fb0e8.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    text-align: start;
+    justify-content: start;
+    align-items: end;
+  
+}
+.propos h1{
+    font-size: 5rem;
+    padding: 40px;
+    color: white;
+    letter-spacing: 3px;
+}
+.cl900{
+    padding: 40px;
+}
+.cl900 h1{
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+.cl900 h2{
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+.cl900 p{
+    font-size: 1.1rem;
+}
+.vert{
+    background-image: url(assets/images/eleve1.jpg);
+    background-size: cover;
+    width: 90%;
+    height: 150vh;
+    margin-left:5%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.verte{
+    background-image: url(assets/images/eleve2.jpg);
+    background-size: cover;
+    width: 90%;
+    height: 150vh;
+    margin-left:5%;
+    display: flex;
+    border-radius: 15px;
+}
+.frez h2{
+    padding: 40px;
+    font-size: 2rem;
+}
+.middle{
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    padding: 20px;
+   
+}
+.middle .re{
+    padding:2% 2%;
+    background-color: white;
+    box-shadow: 10px 10px 25px  rgba(58, 56, 56, 0.8);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.hyyy{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.fr{
+    padding: 80px;
+}
+.fr h1{
+    font-size: 2rem;
+}
+.hyyy  a{
+    color: white;
+    background-color: #41C885;
+    padding: 16px 32px; 
+    border-radius: 15px;
+}
+.yeye{
+    background-color: black;
+    color: darkgray;
+    padding: 40px;
+}
+.re h1{
+    color: white;
+    background-color: #41C885;
+    padding: 30px;
+    font-size: 3rem;
+    display:flex ;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
